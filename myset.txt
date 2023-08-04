@@ -1,0 +1,52 @@
+https://github.com/gkDigitalEcosystem/MyGK
+https://nuget.pkg.github.com/gkDigitalEcosystem/index.json
+
+https://pkgs.dev.azure.com/GlobalKnoledge/_packaging/GlobalKnowledge/nuget/v3/index.json
+
+https://github.com/gkDigitalEcosystem/EnrollmentSites
+
+ezsites26@gmail.com
+be$h@Q94r%t
+
+aK8pknpuf
+https://localhost:44315/Content/Main/MyCourse.aspx?EnrollmentID=ORL000011026
+madalyn.richardson@skillsoft.com 
+
+https://mygkqa.globalknowledge.com/Handlers/JsonCoreServices.ashx?request=GetUserDataById&id=CGKSQ0212563
+https://mygksvcqa.ww.globalknowledge.com/Endpoints/JsonCoreServices.svc/GetUserDataById?id=CGKSQ0212563
+
+https://enrolldev.globalknowledge.com/ezdemo/en-us/EZCheckout/CourseRegistrationExternal?productCode=9025A&crmOfferingCode=QGKID0B9KLMG
+
+0015800000RWuxMAAT
+
+kNWs1tuZoQRfR)zTZkqMak
+kNWs1tuZoQRfR)zTZkqMak -- IIS
+202301090524426_AddPromotedContentTables
+202301090811497_PromotedContent_SampleData
+202301110639287_AlterPromotionContentTable
+202301120547388_AlterPromotedContentTable
+
+HVXUSERID	CONTACTID	USERNAME	ALTUSERNAME	PASSWORD	PASSWORDSALT	TOKENEXPIRYDATE	TOKENSECRET	SIGNINCOUNT	LASTLOGINDATE	LASTPASSWORDCHANGEDATE	COMMUNITYUSERID	ACCEPTEDCOMMUNITYTERMS	ACTIVE	CREATEUSER	CREATEDATE	MODIFYUSER	MODIFYDATE
+HUSR0000D6VT	CGKSQ0412552	rajapandi.n@skillsoft.com	rajapandi.n@skillsoft.com	E3HV4NmevgmcLB5p5j5uHhSOT6daL54hWwIgJqhKRspnMHdudy9pLw==	g0wnw/i/	NULL	NULL	0	2023-03-24 06:20:38.853	2023-06-14 08:19:08.200	NULL	0	1	mygk_web	2023-03-24 06:20:38.867	mygk_web	2023-06-14 08:19:08.200
+
+Server Access
+EZ:
+  <add name="DefaultConnection" connectionString="Data Source=vm-d-shd-sql-02.ww.globalknowledge.com;Initial Catalog=StarGateQA;Integrated Security=False;Persist Security Info=True;user id=SG_Admin;password=5t@rgat3!" providerName="System.Data.SqlClient"/>
+
+GK 
+HubEntities: data source=Vm-d-shd-sql-02.ww.globalknowledge.com;initial catalog=HUB_QA;persist security info=True;
+user id=gk_hub;password=Gat0rad3;multipleactiveresultsets=True
+
+EndevaEntities: data source=Vm-p-shd-sql-01.ww.globalknowledge.com;initial catalog=Endeva;persist security info=True;user id=CDUser;password=y56XOAvqXa;multipleactiveresultsets=True
+
+D365OpsEntities:  data source=vm-p-dyn-sql-02.ww.globalknowledge.com;initial catalog=D365_Ops;persist security info=True;user id=mygk_web;password=Gat0rad3;multipleactiveresultsets=True
+
+GTC-Bank:
+<add name="DefaultConnection" connectionString="Data Source=vm-d-shd-sql-02.ww.globalknowledge.com;Initial Catalog=GtcBankQA;User ID=gtc_admin;Password=G|(%@dM1n;" providerName="System.Data.SqlClient" />
+    <add name="CosmosConnection" connectionString="Data Source=vm-d-shd-sql-02.ww.globalknowledge.com;Initial Catalog=COSMOS_QA;user id=gtc_web;password=Gat0rad3;" providerName="System.Data.SqlClient" />
+    <add name="SaleslogixConnection" connectionString="Data Source=vm-p-dyn-sql-02.ww.globalknowledge.com;Initial Catalog=D365_Ops;user id=gtc_web;password=Gat0rad3;" providerName="System.Data.SqlClient" />
+
+<add key="PrepayMicroserviceUrl" value="https://api.globalknowledge.io/gtc/CreatePrepayCard?api-version=qa" />
+<add key="EnrollmentMicroserviceUrl" value="https://api.globalknowledge.io/gtc/CreateEnrollment?api-version=qa" />
+<add key="Ocp-Apim-Subscription-Key" value="fb6cb1e32faf4f7ea7c68418c9b5d3b3"/>
+   
